@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1 {
+    width: 50%; 
+    margin: auto;
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+#form {
+    width: 40%; 
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+input {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid #ccc;
+    color: gray;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    visibility: hidden;
+    color: orangered;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.invalid {
+    border: 2px solid orangered;
+ }
+
+ .valid {
+     border-color: olivedrab;
+ }
+
+ input.invalid + p {
+     visibility: visible;
+ }
